@@ -1,0 +1,22 @@
+@import 'fonts';
+@import 'variables';
+@import 'content';
+
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+button {
+    border:solid 1px $color6;
+    color:$color6;
+    font-size:$font-S;
+    background:none;
+    cursor:pointer;
+}
+    
